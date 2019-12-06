@@ -45,13 +45,6 @@
     }
     .topnav.responsive a {
       float: none;
-      display: block;
-      text-align: left;
-      padding: 5px 30px;
-      font-size: 12px;
-    }
-    .topnav.responsive #home-link {
-      float: none;
       clear: left;
       display: block;
       text-align: left;

@@ -7,6 +7,7 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
       </a>
+      <br/>
     {% for item in site.data.navigation %}
       <a href="{{ item.link }}" {% if page.url == item.link %} class="active"{% endif %}>
         {{ item.name }}
